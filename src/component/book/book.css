@@ -1,0 +1,37 @@
+.book-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.tbl {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.tbl-row{
+    border: 1px solid red;
+}
+
+table {
+    width: 80%;
+  }
+  
+  th {
+    height: 70px;
+  }
+
+  td {
+    text-align: center;
+    height: 30px;
+  }
+
+
+  .btn {
+    width: 100px;
+    background-color: rgb(61, 113, 96);
+    color: rgb(253, 250, 250);
+    height: 30px;
+    cursor: pointer;
+    border: none;
+  }

@@ -1,0 +1,73 @@
+{
+    "bookFormFields": [
+      {
+        "name": "title",
+        "type": "text",
+        "label": "Title",
+        "placeholder": "Enter your Book name"
+      },
+      {
+        "name": "author",
+        "type": "text",
+        "label": "Author Name",
+        "placeholder": "Enter your Author name"
+      },
+      {
+        "name": "year",
+        "type": "number",
+        "label": "Year of Publish"
+      },
+      {
+        "name": "genre",
+        "type": "select",
+        "label": "Select the Genre",
+        "options": [
+          { "value": "mystery","label": "Mystery" },
+          { "value": "fantasy","label": "Fantasy" },
+          { "value": "thriller","label": "Thriller" },
+          { "value": "classic","label": "Classic" }
+        ]
+      },
+      {
+        "name": "pages",
+        "type": "number",
+        "label": "Number of Pages"
+      },
+      {
+        "name": "language",
+        "type": "select",
+        "label": "Select the Language",
+        "options": [
+          { "value": "english", "label": "English" },
+          { "value": "hindi", "label": "Hindi" },
+          { "value": "marathi", "label": "Marathi" }
+        ]
+      },
+      {
+        "name": "price",
+        "type": "number",
+        "label": "Price"
+      },
+      {
+        "name": "description",
+        "type": "textarea",
+        "label": "Description",
+        "placeholder": "Enter the book description"
+      },
+      {
+        "name": "available",
+        "type": "radio",
+        "label": "Book Available",
+        "options": [
+          { "value": true, "label": "Yes" },
+          { "value": false, "label": "No" }
+        ]
+      },
+      {
+        "name":"image",
+        "type":"media",
+        "lable":"Add a image"
+      }
+    ]
+  }
+  
